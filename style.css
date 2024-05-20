@@ -178,7 +178,18 @@ body{
 
 /* our code starts */
 
-
+.whatsapp{
+	/* height: 20rem; */
+	/* right: 1rem;
+	bottom: 3rem; */
+	position: fixed;
+	top: 75%;
+	right: 10px;
+	z-index: 998;
+}
+.whatsapp img{
+	height: 4rem;
+}
 .header-inner .logo{
 	/* background-color: #000; */
 	/* margin: 0; */
@@ -236,6 +247,7 @@ body{
     font-weight: 400;
     border-radius: 4px;
     font-weight: 400;
+	background-color: #fff;
 }
 
 
